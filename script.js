@@ -11,12 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
     fname: {
       pattern: /^[A-Za-z]{1,32}$/,
       message:
-        "First name should contain only letters (max 30 characters)",
+        "First name should contain only letters",
     },
     lname: {
       pattern: /^[A-Za-z]{1,32}$/,
       message:
-        "Last name should contain only letters (max 30 characters)",
+        "Last name should contain only letters",
     },
     age: {
       pattern: /^(1[5-9]|[2-9][0-9])$/,
